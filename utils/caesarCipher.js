@@ -10,7 +10,7 @@ function indexToChar(index) {
   return String.fromCharCode("a".charCodeAt(0) + wrappedIndex - 1);
 }
 
-// Takes a string and ecrypts it with the shift key
+// Encrypt a string with a shift key
 function caesarCipher(str, shift) {
   // Convert the string to array
   const charArray = str.split("");
