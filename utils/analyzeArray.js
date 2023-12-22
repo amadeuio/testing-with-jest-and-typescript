@@ -1,5 +1,14 @@
 // analyzeArray.js
 function analyzeArray(numbers) {
+  // Check if the input is an array of numbers
+  if (
+    !Array.isArray(numbers) || // It's not an array
+    numbers.length === 0 || // Has 0 length
+    !numbers.every((item) => typeof item === "number") // Every item is a number
+  ) {
+    return "Invalid input. Please provide a non-empty array of numbers.";
+  }
+
   // Calculate average, min, max, and length
   const length = numbers.length;
   const average = numbers.reduce((acc, num) => acc + num, 0) / length;
