@@ -6,7 +6,7 @@ function charToIndex(letter) {
 
 // Transform alphabet index to letter
 function indexToChar(index) {
-  const wrappedIndex = ((((index - 1) % 26) + 26) % 26) + 1; // Handle negative indices
+  const wrappedIndex = ((((index - 1) % 26) + 26) % 26) + 1; // Handle indices out of range (1 to 26)
   return String.fromCharCode("a".charCodeAt(0) + wrappedIndex - 1);
 }
 
@@ -37,3 +37,5 @@ function caesarCipher(str, shift) {
 
 // Example usage
 console.log(caesarCipher("Hello World!", 3)); // Khoor Zruog!
+
+module.exports = caesarCipher;
