@@ -7,6 +7,7 @@ function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-console.log(capitalize("hello world"));
+// Example usage
+capitalize("hello world"); // Hello world
 
 module.exports = capitalize;

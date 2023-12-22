@@ -7,4 +7,7 @@ function reverseString(str) {
   return str.split("").reverse().join("");
 }
 
+// Example usage
+reverseString("hello world"); // dlrow olleh
+
 module.exports = reverseString;

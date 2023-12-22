@@ -17,11 +17,11 @@ var calculator = {
   },
 };
 
-// example usage:
-console.log(calculator.add(5, 3)); // Output: 8
-console.log(calculator.subtract(7, 2)); // Output: 5
-console.log(calculator.multiply(4, 6)); // Output: 24
-console.log(calculator.divide(10, 2)); // Output: 5
-console.log(calculator.divide(8, 0)); // Output: "Cannot divide by zero"
+// Example usage:
+calculator.add(5, 3); // 8
+calculator.subtract(7, 2); // 5
+calculator.multiply(4, 6); // 24
+calculator.divide(10, 2); // 5
+calculator.divide(8, 0); // "Cannot divide by zero"
 
 module.exports = calculator;
