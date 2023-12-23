@@ -3,9 +3,9 @@
 function analyzeArray(numbers) {
   // Check if the input is an array of numbers
   if (
-    !Array.isArray(numbers) || // It's not an array
-    numbers.length === 0 || // Has 0 length
-    !numbers.every((item) => typeof item === "number") // Every item is a number
+    !Array.isArray(numbers) ||
+    numbers.length === 0 ||
+    !numbers.every((item) => typeof item === "number")
   ) {
     return "Invalid input. Please provide a non-empty array of numbers.";
   }
