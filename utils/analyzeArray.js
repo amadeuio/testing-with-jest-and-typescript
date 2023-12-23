@@ -1,4 +1,5 @@
 // analyzeArray.js
+
 function analyzeArray(numbers) {
   // Check if the input is an array of numbers
   if (
@@ -17,7 +18,7 @@ function analyzeArray(numbers) {
 
   // Return an object with the calculated values
   return {
-    average: average,
+    average: Number(average.toFixed(2)),
     min: min,
     max: max,
     length: length,
@@ -25,6 +26,6 @@ function analyzeArray(numbers) {
 }
 
 // Example usage
-console.log(analyzeArray([1, 8, 3, 4, 2, 6]));
+console.log(analyzeArray([1.2, 4, 3.443]));
 
 module.exports = analyzeArray;
