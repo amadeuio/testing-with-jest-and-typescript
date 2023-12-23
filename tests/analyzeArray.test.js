@@ -8,3 +8,17 @@ test("should return the correct values on an integer array", () => {
 test("should return the correct values on a decimal array", () => {
   expect(analyzeArray([1.2, 4, 3.443])).toEqual({ average: 2.88, min: 1.2, max: 4, length: 3 });
 });
+
+test("should return error message on non-array inputs", () => {
+  expect(analyzeArray("hello")).toBe("Invalid input. Please provide a non-empty array of numbers.");
+});
+
+test("should return error message on empty array inputs", () => {
+  expect(analyzeArray([])).toBe("Invalid input. Please provide a non-empty array of numbers.");
+});
+
+test("should return error message on non-numerical array inputs", () => {
+  expect(analyzeArray([1, 2, "three"])).toBe(
+    "Invalid input. Please provide a non-empty array of numbers."
+  );
+});
