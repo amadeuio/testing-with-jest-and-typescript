@@ -6,6 +6,6 @@ function capitalize(str: string): string {
 }
 
 // Example usage
-console.log(capitalize("hello world")); // Hello world
+capitalize("hello world"); // Hello world
 
 export default capitalize;
