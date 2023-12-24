@@ -34,6 +34,6 @@ function caesarCipher(str: string, shift: number): string {
 }
 
 // Example usage
-console.log(caesarCipher("Hello World!", 3)); // Khoor Zruog!
+caesarCipher("Hello World!", 3); // Khoor Zruog!
 
 export default caesarCipher;
