@@ -10,7 +10,7 @@ const calculator = {
   },
   divide: function (num1: number, num2: number): number | string {
     if (num2 === 0) {
-      return "Cannot divide by zero";
+      return "Cannot divide by zero.";
     }
     return num1 / num2;
   },
