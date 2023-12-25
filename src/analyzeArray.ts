@@ -1,12 +1,14 @@
-function analyzeArray(numbers: number[]): object | string {
+function analyzeArray(
+  numbers: number[]
+): { average: number; min: number; max: number; length: number } | string {
   // Check if the input is empty
   if (numbers.length === 0) return "Please provide a non-empty array.";
 
   // Calculate average, min, max, and length
-  const length = numbers.length;
-  const average = numbers.reduce((acc, num) => acc + num, 0) / length;
-  const min = Math.min(...numbers);
-  const max = Math.max(...numbers);
+  const length: number = numbers.length;
+  const average: number = numbers.reduce((acc, num) => acc + num, 0) / length;
+  const min: number = Math.min(...numbers);
+  const max: number = Math.max(...numbers);
 
   // Return an object with the calculated values
   return {
