@@ -1,3 +1,4 @@
+// Object with functions for the operations add, subtract, divide, and multiply
 const calculator = {
   add: function (num1: number, num2: number): number {
     return num1 + num2;

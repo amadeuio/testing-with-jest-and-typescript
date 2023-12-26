@@ -1,4 +1,4 @@
-// Capitalizes the first letter of a string
+// Capitalize the first letter of a string
 function capitalize(str: string): string {
   if (str.length === 0) return str;
 

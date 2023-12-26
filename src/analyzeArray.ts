@@ -1,3 +1,4 @@
+// Return an object with average, min, max, and length of an array of numbers
 function analyzeArray(
   numbers: number[]
 ): { average: number; min: number; max: number; length: number } | string {

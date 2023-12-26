@@ -1,4 +1,4 @@
-// Reverses a string
+// Reverse a string
 function reverseString(str: string): string {
   if (str.length === 0) return str;
 
