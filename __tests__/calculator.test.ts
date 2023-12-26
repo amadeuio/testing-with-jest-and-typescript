@@ -48,7 +48,7 @@ describe("Division", () => {
   });
 
   test("should handle division by zero", () => {
-    expect(calculator.divide(5, 0)).toBe("Cannot divide by zero");
+    expect(calculator.divide(5, 0)).toBe("Cannot divide by zero.");
   });
 
   test("should handle decimal division", () => {
