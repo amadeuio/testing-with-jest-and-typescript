@@ -43,7 +43,7 @@ This repository contains 5 TypeScript functions with corresponding Jest tests.
 
 - If you just want to run one particular test file, use `npm test filename.test.ts` inside the [`__tests__/`](__tests__/) directory
 
-- If you want to run the TypeScript function files without the need to transpile to JavaScript first, you can use ts-node by running `ts-node filename.ts`
+- If you want to run the TypeScript function files in [`src/`](src/) without the need to transpile to JavaScript first, you can use ts-node by running `ts-node filename.ts`
 
 - Have fun messing around with this project, changing or adding new tests and functions!
 
