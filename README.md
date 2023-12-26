@@ -5,7 +5,7 @@
 
 ### About 📖
 
-Solution to the 11th assignment in the JavaScript chapter on [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice)
+Solution to the 11th assignment in the JavaScript chapter on [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice).
 
 ### Description 📚
 
@@ -37,7 +37,7 @@ This repository contains 5 TypeScript functions with correspoinding Jest tests.
 
 - `cd` to the project directory and run `npm install`. This will install the dependencies specified under `devDependencies` in the `package.json` file
 
-- If you want to run the TypeScript functions without the need to transpile to JavaScript first, you can use `ts-node`:
+- If you want to run the TypeScript files without the need to transpile to JavaScript first, you can use ts-node:
 
 ```bash
 ts-node yourfile.ts
