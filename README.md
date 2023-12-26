@@ -5,7 +5,7 @@
 
 ### About 📖
 
-Solution to the 11th assignment in the JavaScript chapter on [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice).
+Solution to the 10th assignment in the JavaScript chapter on [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice).
 
 ### Description 📚
 
