@@ -9,7 +9,7 @@ Solution to the 11th assignment in the JavaScript chapter on [The Odin Project](
 
 ### Description 📚
 
-This repository contains 5 TypeScript functions with correspoinding Jest tests.
+This repository contains 5 TypeScript functions with corresponding Jest tests.
 
 ### Locations 📍
 
@@ -37,7 +37,13 @@ This repository contains 5 TypeScript functions with correspoinding Jest tests.
 
 - Run `npm install` in the project directory. This will install the dependencies specified under `devDependencies` in the [`package.json`](package.json) file
 
-- If you want to run the TypeScript files without the need to transpile to JavaScript first, you can use ts-node by running `ts-node yourfile.ts`
+### Usage 🖊️
+
+- Use `npm test` to run all tests
+
+- If you just want to run one particular test file, use `npm test filename.test.ts` inside the [`__tests__/`](__tests__/) directory
+
+- If you want to run the TypeScript function files without the need to transpile to JavaScript first, you can use ts-node by running `ts-node filename.ts`
 
 - Have fun messing around with this project, changing or adding new tests and functions!
 
