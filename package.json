@@ -1,7 +1,7 @@
 {
-  "name": "testing-practice",
+  "name": "testing-with-jest-and-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testing practice with Jest and TypeScript",
   "scripts": {
     "test": "jest"
   },
@@ -9,9 +9,14 @@
     "type": "git",
     "url": "git+https://github.com/amadeu-io/testing-practice.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "TypeScript",
+    "Jest",
+    "Testing",
+    "Web Development"
+  ],
+  "author": "Amadeu Serras",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/amadeu-io/testing-practice/issues"
   },
