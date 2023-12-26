@@ -3,19 +3,19 @@
 
 # Testing Practice
 
-Solution to the 11th assignment in the JavaScript chapter on [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice)
-
 ### About 📖
 
-This repository contains 5 TypeScript functions with correspoinding Jest tests.
+Solution to the 11th assignment in the JavaScript chapter on [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice)
 
 ### Description 📚
 
-Testing is an integral part of the software development process, ensuring that code functions correctly, remains maintainable, and avoids introducing bugs. This repository aims to provide a hands-on approach to testing with Jest and TypeScript.
+This repository contains 5 TypeScript functions with correspoinding Jest tests.
 
-### Resources Used 💡
+### Locations 📍
 
-- [GPT](https://chat.openai.com)
+- Functions: [src/](src/)
+
+- Tests: [__tests__](__tests__/)
 
 ### Functions 🔧
 
@@ -28,3 +28,17 @@ Testing is an integral part of the software development process, ensuring that c
 - `caesarCipter`: Encrypts a string with a shift key
 
 - `analyzeArray`: Provides `average`, `min`, `max`, and `length` of an array of numbers
+
+### Installation 📦
+
+- Make sure you have [Node.js](https://nodejs.org) installed on your system
+
+- Clone this repo to your local machine `git clone git@github.com:amadeu-io/testing-practice.git`
+
+- `cd` to the project directory and run `npm install`. This will install the dependencies specified under `devDependencies` in `package.json` file
+
+- Have fun messing around with this project, changing or adding new tests and functions!
+
+### Resources Used 💡
+
+- [GPT](https://chat.openai.com)
