@@ -37,11 +37,7 @@ This repository contains 5 TypeScript functions with correspoinding Jest tests.
 
 - Run `npm install` in the project directory. This will install the dependencies specified under `devDependencies` in the [`package.json`](package.json) file
 
-- If you want to run the TypeScript files without the need to transpile to JavaScript first, you can use ts-node:
-
-```bash
-ts-node yourfile.ts
-```
+- If you want to run the TypeScript files without the need to transpile to JavaScript first, you can use ts-node: `ts-node yourfile.ts`
 
 - Have fun messing around with this project, changing or adding new tests and functions!
 
