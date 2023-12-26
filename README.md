@@ -1,7 +1,7 @@
 ![languages](https://img.shields.io/badge/languages-ts-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-# Testing Practice
+# Testing with Jest and TypeScript
 
 ### About 📖
 
