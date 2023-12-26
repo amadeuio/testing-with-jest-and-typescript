@@ -13,9 +13,9 @@ This repository contains 5 TypeScript functions with correspoinding Jest tests.
 
 ### Locations 📍
 
-- Functions: [src/](src/)
+- Functions: [`src/`](src/)
 
-- Tests: [__tests__](__tests__/)
+- Tests: [`__tests__/`](__tests__/)
 
 ### Functions 🔧
 
@@ -35,7 +35,13 @@ This repository contains 5 TypeScript functions with correspoinding Jest tests.
 
 - Clone this repo to your local machine `git clone git@github.com:amadeu-io/testing-practice.git`
 
-- `cd` to the project directory and run `npm install`. This will install the dependencies specified under `devDependencies` in `package.json` file
+- `cd` to the project directory and run `npm install`. This will install the dependencies specified under `devDependencies` in the `package.json` file
+
+- If you want to run the TypeScript functions without the need to transpile to JavaScript first, you can use `ts-node`:
+
+```bash
+ts-node yourfile.ts
+```
 
 - Have fun messing around with this project, changing or adding new tests and functions!
 
