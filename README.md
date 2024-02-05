@@ -33,7 +33,7 @@ This repository contains 5 TypeScript functions with corresponding Jest tests.
 
 - Make sure you have [Node.js](https://nodejs.org) installed on your system
 
-- Clone this repo to your local machine `git clone git@github.com:amadeu-io/testing-practice.git`
+- Clone this repo to your local machine `git clone git@github.com:amadeuio/testing-practice.git`
 
 - Run `npm install` in the project directory. This will install the dependencies specified under `devDependencies` in the [`package.json`](package.json) file
 
